@@ -4,7 +4,7 @@ import UIKit
 
 struct Messages {
     static let noMemesTitle = "No memes yet"
-    static let noMemesMessage = "Click + in upper-right corner\nto make the first meme"
+    static let noMemesMessage = "Click + in the upper right corner\nto make the first meme"
 }
 
 
