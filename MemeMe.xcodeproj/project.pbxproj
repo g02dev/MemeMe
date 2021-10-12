@@ -55,7 +55,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B733E63926ADE6D4009FECB4 /* View */ = {
+		B733E63926ADE6D4009FECB4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				B733E63A26ADEBFC009FECB4 /* MemeCollectionViewCell.swift */,
@@ -63,7 +63,7 @@
 				B733E63C26AF5447009FECB4 /* ImageScrollView.swift */,
 				B733E64026B0804B009FECB4 /* MessageView.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B76A2B4E26A74D4B007E8D7F = {
@@ -89,33 +89,41 @@
 				B76A2B5C26A74D4B007E8D7F /* SceneDelegate.swift */,
 				B76A2B6026A74D4B007E8D7F /* Main.storyboard */,
 				B76A2B6526A74D4E007E8D7F /* LaunchScreen.storyboard */,
-				B76A2B7326AB1A39007E8D7F /* Model */,
-				B733E63926ADE6D4009FECB4 /* View */,
-				B76A2B7226AB1A2D007E8D7F /* Controller */,
+				B76A2B7326AB1A39007E8D7F /* Models */,
+				B733E63926ADE6D4009FECB4 /* Views */,
+				B76A2B7226AB1A2D007E8D7F /* Controllers */,
 				B76A2B6326A74D4E007E8D7F /* Assets.xcassets */,
 				B76A2B6826A74D4E007E8D7F /* Info.plist */,
 			);
 			path = MemeMe;
 			sourceTree = "<group>";
 		};
-		B76A2B7226AB1A2D007E8D7F /* Controller */ = {
+		B76A2B7226AB1A2D007E8D7F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				B76A2B5E26A74D4B007E8D7F /* MemeEditorViewController.swift */,
 				B733E63126ADBA98009FECB4 /* MemeDetailViewController.swift */,
 				B733E63326ADBAB2009FECB4 /* SentMemesTableViewController.swift */,
 				B733E63526ADBACA009FECB4 /* SentMemesCollectionViewController.swift */,
-				B76A2B7026A9A27E007E8D7F /* UIViewController+Alert.swift */,
+				B76E8AAA2716470900BF6971 /* Extensions */,
 			);
-			path = Controller;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		B76A2B7326AB1A39007E8D7F /* Model */ = {
+		B76A2B7326AB1A39007E8D7F /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				B76A2B6E26A9A109007E8D7F /* Meme.swift */,
 			);
-			path = Model;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B76E8AAA2716470900BF6971 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B76A2B7026A9A27E007E8D7F /* UIViewController+Alert.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
