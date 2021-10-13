@@ -20,7 +20,12 @@ class MemeView: UIView {
         return activeTextField == bottomTextField
     }
     
-    weak var textFieldDelegate: UITextFieldDelegate?
+    weak var textFieldDelegate: UITextFieldDelegate? {
+        didSet {
+            topTextField.delegate = textFieldDelegate
+            bottomTextField.delegate = textFieldDelegate
+        }
+    }
     
     @IBOutlet weak var imageScrollView: ImageScrollView!
     @IBOutlet weak var topTextField: UITextField!
